@@ -6,6 +6,8 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
 
 ## Conteúdo
 
+### Fundamentos
+
 1. [Origem e evolução do Linux](01-origem-evolucao-linux.md)
 2. [Software livre e a licença GPL](02-software-livre-gpl.md)
 3. [Comunidades de desenvolvedores](03-comunidades-desenvolvedores.md)
@@ -14,6 +16,15 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
 6. [Linux em diversas áreas e dispositivos](06-linux-diversas-areas.md)
 7. [Processo de inicialização: BIOS, GRUB e init](07-processo-inicializacao.md)
 8. [Interfaces gráficas e terminal](08-interfaces-graficas-terminal.md)
+
+### Terminal na prática
+
+9. [Manipulação de arquivos e diretórios](09-manipulacao-arquivos-diretorios.md)
+10. [Visualização e filtragem de conteúdo](10-visualizacao-filtragem-conteudo.md)
+11. [Editores de texto: nano e vim](11-editores-texto-terminal.md)
+12. [Comandos de ajuda e documentação](12-ajuda-documentacao-terminal.md)
+13. [Monitoramento do sistema](13-monitoramento-sistema.md)
+14. [A interação entre shell, kernel e hardware](14-shell-kernel-hardware.md)
 
 ## Sobre
 
