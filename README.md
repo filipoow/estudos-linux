@@ -26,6 +26,16 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
 13. [Monitoramento do sistema](13-monitoramento-sistema.md)
 14. [A interação entre shell, kernel e hardware](14-shell-kernel-hardware.md)
 
+### Arquivos, permissões e processos
+
+15. [Estrutura de diretórios: o FHS](15-estrutura-diretorios-fhs.md)
+16. [Permissões: chmod e chown](16-permissoes-chmod-chown.md)
+17. [Processos: ps, top e htop](17-processos-ps-top-htop.md)
+18. [Usuários, su e sudo](18-usuarios-su-sudo.md)
+19. [Caminhos absolutos e relativos](19-caminhos-absolutos-relativos.md)
+20. [Links: hardlinks e softlinks](20-links-hardlink-softlink.md)
+21. [Identidade e detalhes de arquivos: id e stat](21-id-stat.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
