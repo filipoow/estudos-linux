@@ -18,3 +18,7 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
+
+## Licença
+
+Este conteúdo está sob a licença [MIT](LICENSE). Use, copie e adapte à vontade.
