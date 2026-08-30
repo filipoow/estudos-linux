@@ -36,6 +36,14 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
 20. [Links: hardlinks e softlinks](20-links-hardlink-softlink.md)
 21. [Identidade e detalhes de arquivos: id e stat](21-id-stat.md)
 
+### Pacotes, scripts e automação
+
+22. [Gerenciando pacotes: APT e dpkg](22-apt-dpkg-gerenciamento-pacotes.md)
+23. [Redirecionamento e pipes](23-redirecionamento-pipes.md)
+24. [Scripts em shell](24-scripts-shell.md)
+25. [Agendamento com CronTab](25-crontab-agendamento.md)
+26. [Integrando scripts e agendamento na manutenção de sistemas](26-integracao-scripts-cron-manutencao.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
