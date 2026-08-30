@@ -44,6 +44,26 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O 
 4. [Agendamento com CronTab](04-pacotes-scripts-automacao/04-crontab-agendamento.md)
 5. [Integrando scripts e agendamento na manutenção de sistemas](04-pacotes-scripts-automacao/05-integracao-scripts-cron-manutencao.md)
 
+### [05. Rede, usuários e segurança](05-rede-usuarios-seguranca)
+
+1. [Interfaces de rede](05-rede-usuarios-seguranca/01-interfaces-rede.md)
+2. [Usuários e grupos](05-rede-usuarios-seguranca/02-usuarios-grupos.md)
+3. [Segurança básica](05-rede-usuarios-seguranca/03-seguranca-basica.md)
+4. [Logs e journalctl](05-rede-usuarios-seguranca/04-logs-journalctl.md)
+5. [Servidor web básico](05-rede-usuarios-seguranca/05-servidor-web-basico.md)
+6. [Diagnóstico de rede: ping e nslookup](05-rede-usuarios-seguranca/06-ping-nslookup-diagnostico.md)
+
+### [06. Fundamentos de SO, Unix e shell](06-fundamentos-so-unix-shell)
+
+1. [O papel do sistema operacional](06-fundamentos-so-unix-shell/01-papel-sistema-operacional.md)
+2. [História e influência do Unix](06-fundamentos-so-unix-shell/02-historia-influencia-unix.md)
+3. [A filosofia Unix](06-fundamentos-so-unix-shell/03-filosofia-unix.md)
+4. [O shell como interpretador de comandos](06-fundamentos-so-unix-shell/04-shell-interpretador-comandos.md)
+5. [Comparando tipos de shell](06-fundamentos-so-unix-shell/05-tipos-de-shell.md)
+6. [Estruturando scripts de shell](06-fundamentos-so-unix-shell/06-estruturando-scripts-shell.md)
+7. [Ambiente de desenvolvimento no macOS e Windows](06-fundamentos-so-unix-shell/07-ambiente-dev-macos-windows.md)
+8. [Docker e Homebrew](06-fundamentos-so-unix-shell/08-docker-homebrew.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
