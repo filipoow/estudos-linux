@@ -2,11 +2,11 @@
 
 ## Um script que roda sozinho, na hora certa
 
-O arquivo anterior, sobre [scripts em shell](24-scripts-shell.md), resolve o problema de repetir uma sequência de comandos sem precisar digitar tudo de novo toda vez. Mas ainda falta uma peça: alguém precisa lembrar de rodar aquele script. O cron é o serviço do Linux responsável justamente por isso, ele roda em segundo plano, o tempo todo, verificando se chegou a hora de executar alguma tarefa agendada, e disparando o comando ou script correspondente sozinho, sem intervenção humana.
+O arquivo anterior, sobre [scripts em shell](03-scripts-shell.md), resolve o problema de repetir uma sequência de comandos sem precisar digitar tudo de novo toda vez. Mas ainda falta uma peça: alguém precisa lembrar de rodar aquele script. O cron é o serviço do Linux responsável justamente por isso, ele roda em segundo plano, o tempo todo, verificando se chegou a hora de executar alguma tarefa agendada, e disparando o comando ou script correspondente sozinho, sem intervenção humana.
 
 ## A ferramenta usada para configurar isso: `crontab`
 
-Cada usuário do sistema pode ter sua própria lista de tarefas agendadas, chamada de crontab. Para editar essa lista, usa-se o comando `crontab -e`, que abre um editor de texto (geralmente configurado para usar o `nano`, apresentado no arquivo sobre [editores de texto](11-editores-texto-terminal.md)) com a lista atual de tarefas daquele usuário.
+Cada usuário do sistema pode ter sua própria lista de tarefas agendadas, chamada de crontab. Para editar essa lista, usa-se o comando `crontab -e`, que abre um editor de texto (geralmente configurado para usar o `nano`, apresentado no arquivo sobre [editores de texto](../02-terminal-na-pratica/03-editores-texto-terminal.md)) com a lista atual de tarefas daquele usuário.
 
 ```
 crontab -e

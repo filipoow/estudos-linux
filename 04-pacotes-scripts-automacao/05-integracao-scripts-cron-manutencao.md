@@ -2,7 +2,7 @@
 
 ## Um sistema que cuida de si mesmo
 
-Cada arquivo anterior deste bloco de aulas apresentou uma peça separada: o gerenciamento de pacotes com [APT e dpkg](22-apt-dpkg-gerenciamento-pacotes.md), o encadeamento de comandos com [redirecionadores e pipes](23-redirecionamento-pipes.md), a criação de [scripts em shell](24-scripts-shell.md), e o agendamento automático com o [CronTab](25-crontab-agendamento.md). Nenhuma dessas peças, sozinha, resolve um problema real de administração de sistemas. A força aparece quando elas são combinadas.
+Cada arquivo anterior deste bloco de aulas apresentou uma peça separada: o gerenciamento de pacotes com [APT e dpkg](01-apt-dpkg-gerenciamento-pacotes.md), o encadeamento de comandos com [redirecionadores e pipes](02-redirecionamento-pipes.md), a criação de [scripts em shell](03-scripts-shell.md), e o agendamento automático com o [CronTab](04-crontab-agendamento.md). Nenhuma dessas peças, sozinha, resolve um problema real de administração de sistemas. A força aparece quando elas são combinadas.
 
 Um administrador de sistemas experiente raramente executa tarefas de manutenção manualmente, dia após dia. Em vez disso, ele escreve um script que já faz tudo que seria feito manualmente, testa esse script até ter certeza que funciona como esperado, e então entrega esse script para o cron rodar sozinho, no horário certo, sem depender de ninguém lembrar de nada.
 
@@ -24,15 +24,15 @@ find /var/log -name "*.log" -mtime +30 -delete
 echo "Manutencao concluida em $(date)" >> /var/log/manutencao.log
 ```
 
-Repare que esse script usa vários conceitos já explicados separadamente: os comandos do [APT](22-apt-dpkg-gerenciamento-pacotes.md) para atualizar o sistema, e o redirecionador `>>`, apresentado no arquivo sobre [pipes e redirecionadores](23-redirecionamento-pipes.md), para registrar um histórico de quando a manutenção rodou, sem apagar os registros anteriores.
+Repare que esse script usa vários conceitos já explicados separadamente: os comandos do [APT](01-apt-dpkg-gerenciamento-pacotes.md) para atualizar o sistema, e o redirecionador `>>`, apresentado no arquivo sobre [pipes e redirecionadores](02-redirecionamento-pipes.md), para registrar um histórico de quando a manutenção rodou, sem apagar os registros anteriores.
 
-O segundo passo é dar permissão de execução a esse arquivo, como já mostrado no arquivo sobre [scripts em shell](24-scripts-shell.md):
+O segundo passo é dar permissão de execução a esse arquivo, como já mostrado no arquivo sobre [scripts em shell](03-scripts-shell.md):
 
 ```
 chmod +x manutencao.sh
 ```
 
-O terceiro e último passo é agendar esse script para rodar sozinho, usando o `crontab -e`, apresentado no [arquivo anterior](25-crontab-agendamento.md), por exemplo toda madrugada de domingo às 4h:
+O terceiro e último passo é agendar esse script para rodar sozinho, usando o `crontab -e`, apresentado no [arquivo anterior](04-crontab-agendamento.md), por exemplo toda madrugada de domingo às 4h:
 
 ```
 0 4 * * 0 /home/filipe/scripts/manutencao.sh

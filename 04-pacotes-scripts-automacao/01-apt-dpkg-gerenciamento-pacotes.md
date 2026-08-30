@@ -2,7 +2,7 @@
 
 ## Duas camadas, um mesmo objetivo
 
-No arquivo sobre [distribuições Linux](05-distribuicoes-linux.md) já ficou claro que cada família de distribuição tem seu próprio gerenciador de pacotes. Aqui o foco é entender, com mais profundidade, como isso funciona na família Debian (que inclui Ubuntu, Linux Mint e várias outras), através de duas camadas de ferramentas que trabalham juntas, mas em níveis diferentes.
+No arquivo sobre [distribuições Linux](../01-fundamentos/05-distribuicoes-linux.md) já ficou claro que cada família de distribuição tem seu próprio gerenciador de pacotes. Aqui o foco é entender, com mais profundidade, como isso funciona na família Debian (que inclui Ubuntu, Linux Mint e várias outras), através de duas camadas de ferramentas que trabalham juntas, mas em níveis diferentes.
 
 ## `dpkg`: a camada mais baixa
 
@@ -48,7 +48,7 @@ Na prática, para uso interativo do dia a dia, o comando `apt` é hoje o recomen
 
 ## Onde tudo isso fica guardado
 
-Voltando à ideia de hierarquia de arquivos, apresentada no arquivo sobre o [FHS](15-estrutura-diretorios-fhs.md), o APT também segue essa organização: os repositórios configurados ficam em `/etc/apt`, os pacotes `.deb` já baixados ficam guardados temporariamente em `/var/cache/apt`, e os programas instalados de fato se espalham pelas pastas padrão do sistema, principalmente dentro de `/usr`.
+Voltando à ideia de hierarquia de arquivos, apresentada no arquivo sobre o [FHS](../03-arquivos-permissoes-processos/01-estrutura-diretorios-fhs.md), o APT também segue essa organização: os repositórios configurados ficam em `/etc/apt`, os pacotes `.deb` já baixados ficam guardados temporariamente em `/var/cache/apt`, e os programas instalados de fato se espalham pelas pastas padrão do sistema, principalmente dentro de `/usr`.
 
 ## Fontes
 

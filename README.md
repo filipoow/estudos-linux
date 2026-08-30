@@ -2,47 +2,47 @@
 
 Este repositório reúne minhas anotações de estudo sobre Linux. A ideia é ter material simples de ler, mas aprofundado o suficiente para entender de verdade como o sistema funciona e por que ele é do jeito que é, não só decorar comandos.
 
-Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além.
+Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O conteúdo está organizado em pastas, por bloco de assunto.
 
 ## Conteúdo
 
-### Fundamentos
+### [01. Fundamentos](01-fundamentos)
 
-1. [Origem e evolução do Linux](01-origem-evolucao-linux.md)
-2. [Software livre e a licença GPL](02-software-livre-gpl.md)
-3. [Comunidades de desenvolvedores](03-comunidades-desenvolvedores.md)
-4. [Linha de comando](04-linha-de-comando.md)
-5. [Distribuições Linux](05-distribuicoes-linux.md)
-6. [Linux em diversas áreas e dispositivos](06-linux-diversas-areas.md)
-7. [Processo de inicialização: BIOS, GRUB e init](07-processo-inicializacao.md)
-8. [Interfaces gráficas e terminal](08-interfaces-graficas-terminal.md)
+1. [Origem e evolução do Linux](01-fundamentos/01-origem-evolucao-linux.md)
+2. [Software livre e a licença GPL](01-fundamentos/02-software-livre-gpl.md)
+3. [Comunidades de desenvolvedores](01-fundamentos/03-comunidades-desenvolvedores.md)
+4. [Linha de comando](01-fundamentos/04-linha-de-comando.md)
+5. [Distribuições Linux](01-fundamentos/05-distribuicoes-linux.md)
+6. [Linux em diversas áreas e dispositivos](01-fundamentos/06-linux-diversas-areas.md)
+7. [Processo de inicialização: BIOS, GRUB e init](01-fundamentos/07-processo-inicializacao.md)
+8. [Interfaces gráficas e terminal](01-fundamentos/08-interfaces-graficas-terminal.md)
 
-### Terminal na prática
+### [02. Terminal na prática](02-terminal-na-pratica)
 
-9. [Manipulação de arquivos e diretórios](09-manipulacao-arquivos-diretorios.md)
-10. [Visualização e filtragem de conteúdo](10-visualizacao-filtragem-conteudo.md)
-11. [Editores de texto: nano e vim](11-editores-texto-terminal.md)
-12. [Comandos de ajuda e documentação](12-ajuda-documentacao-terminal.md)
-13. [Monitoramento do sistema](13-monitoramento-sistema.md)
-14. [A interação entre shell, kernel e hardware](14-shell-kernel-hardware.md)
+1. [Manipulação de arquivos e diretórios](02-terminal-na-pratica/01-manipulacao-arquivos-diretorios.md)
+2. [Visualização e filtragem de conteúdo](02-terminal-na-pratica/02-visualizacao-filtragem-conteudo.md)
+3. [Editores de texto: nano e vim](02-terminal-na-pratica/03-editores-texto-terminal.md)
+4. [Comandos de ajuda e documentação](02-terminal-na-pratica/04-ajuda-documentacao-terminal.md)
+5. [Monitoramento do sistema](02-terminal-na-pratica/05-monitoramento-sistema.md)
+6. [A interação entre shell, kernel e hardware](02-terminal-na-pratica/06-shell-kernel-hardware.md)
 
-### Arquivos, permissões e processos
+### [03. Arquivos, permissões e processos](03-arquivos-permissoes-processos)
 
-15. [Estrutura de diretórios: o FHS](15-estrutura-diretorios-fhs.md)
-16. [Permissões: chmod e chown](16-permissoes-chmod-chown.md)
-17. [Processos: ps, top e htop](17-processos-ps-top-htop.md)
-18. [Usuários, su e sudo](18-usuarios-su-sudo.md)
-19. [Caminhos absolutos e relativos](19-caminhos-absolutos-relativos.md)
-20. [Links: hardlinks e softlinks](20-links-hardlink-softlink.md)
-21. [Identidade e detalhes de arquivos: id e stat](21-id-stat.md)
+1. [Estrutura de diretórios: o FHS](03-arquivos-permissoes-processos/01-estrutura-diretorios-fhs.md)
+2. [Permissões: chmod e chown](03-arquivos-permissoes-processos/02-permissoes-chmod-chown.md)
+3. [Processos: ps, top e htop](03-arquivos-permissoes-processos/03-processos-ps-top-htop.md)
+4. [Usuários, su e sudo](03-arquivos-permissoes-processos/04-usuarios-su-sudo.md)
+5. [Caminhos absolutos e relativos](03-arquivos-permissoes-processos/05-caminhos-absolutos-relativos.md)
+6. [Links: hardlinks e softlinks](03-arquivos-permissoes-processos/06-links-hardlink-softlink.md)
+7. [Identidade e detalhes de arquivos: id e stat](03-arquivos-permissoes-processos/07-id-stat.md)
 
-### Pacotes, scripts e automação
+### [04. Pacotes, scripts e automação](04-pacotes-scripts-automacao)
 
-22. [Gerenciando pacotes: APT e dpkg](22-apt-dpkg-gerenciamento-pacotes.md)
-23. [Redirecionamento e pipes](23-redirecionamento-pipes.md)
-24. [Scripts em shell](24-scripts-shell.md)
-25. [Agendamento com CronTab](25-crontab-agendamento.md)
-26. [Integrando scripts e agendamento na manutenção de sistemas](26-integracao-scripts-cron-manutencao.md)
+1. [Gerenciando pacotes: APT e dpkg](04-pacotes-scripts-automacao/01-apt-dpkg-gerenciamento-pacotes.md)
+2. [Redirecionamento e pipes](04-pacotes-scripts-automacao/02-redirecionamento-pipes.md)
+3. [Scripts em shell](04-pacotes-scripts-automacao/03-scripts-shell.md)
+4. [Agendamento com CronTab](04-pacotes-scripts-automacao/04-crontab-agendamento.md)
+5. [Integrando scripts e agendamento na manutenção de sistemas](04-pacotes-scripts-automacao/05-integracao-scripts-cron-manutencao.md)
 
 ## Sobre
 

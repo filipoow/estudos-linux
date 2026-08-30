@@ -10,7 +10,7 @@ Existem, de forma resumida, três camadas trabalhando juntas cada vez que um com
 
 **O shell**: é o programa que interpreta o que você digita. Quando você escreve `ls -l` e aperta Enter, é o shell (geralmente o Bash) quem lê esse texto, entende que `ls` é o nome de um programa e que `-l` é uma opção para ele, e prepara a execução. O shell roda no chamado espaço de usuário (user space), a mesma camada onde rodam a maioria dos programas comuns.
 
-**O kernel**: é o núcleo do sistema operacional, que já foi apresentado em detalhes no arquivo sobre a [origem do Linux](01-origem-evolucao-linux.md). O kernel é quem realmente tem permissão para conversar diretamente com o hardware, gerenciar memória, decidir qual processo usa o processador em cada instante, e controlar arquivos em disco. Nenhum programa comum, incluindo o próprio shell, tem permissão de fazer essas coisas sozinho.
+**O kernel**: é o núcleo do sistema operacional, que já foi apresentado em detalhes no arquivo sobre a [origem do Linux](../01-fundamentos/01-origem-evolucao-linux.md). O kernel é quem realmente tem permissão para conversar diretamente com o hardware, gerenciar memória, decidir qual processo usa o processador em cada instante, e controlar arquivos em disco. Nenhum programa comum, incluindo o próprio shell, tem permissão de fazer essas coisas sozinho.
 
 **O hardware**: processador, memória RAM, disco, placa de rede, e todos os outros componentes físicos que efetivamente executam o trabalho pedido.
 

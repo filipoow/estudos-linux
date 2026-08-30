@@ -42,7 +42,7 @@ O `dmesg` mostra o conteúdo do buffer de mensagens do kernel, um registro inter
 dmesg | tail -n 30
 ```
 
-Esse exemplo, combinando `dmesg` com o `tail` já apresentado no arquivo sobre [visualização e filtragem de conteúdo](10-visualizacao-filtragem-conteudo.md), mostra só as últimas trinta mensagens registradas, que costumam ser as mais relevantes para diagnosticar um problema recente, como um pen drive que não foi reconhecido ou uma falha de disco.
+Esse exemplo, combinando `dmesg` com o `tail` já apresentado no arquivo sobre [visualização e filtragem de conteúdo](02-visualizacao-filtragem-conteudo.md), mostra só as últimas trinta mensagens registradas, que costumam ser as mais relevantes para diagnosticar um problema recente, como um pen drive que não foi reconhecido ou uma falha de disco.
 
 ## `htop`: uma central de monitoramento interativa
 

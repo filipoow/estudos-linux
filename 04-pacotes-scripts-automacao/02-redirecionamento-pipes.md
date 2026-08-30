@@ -54,7 +54,7 @@ A ordem aqui importa: o shell processa os redirecionamentos da esquerda para a d
 
 ## `|`: conectando a saída de um comando à entrada de outro
 
-O pipe, já mencionado em arquivos anteriores como o de [visualização e filtragem de conteúdo](10-visualizacao-filtragem-conteudo.md), conecta diretamente a saída padrão de um comando à entrada padrão do próximo, sem passar por um arquivo intermediário no meio do caminho.
+O pipe, já mencionado em arquivos anteriores como o de [visualização e filtragem de conteúdo](../02-terminal-na-pratica/02-visualizacao-filtragem-conteudo.md), conecta diretamente a saída padrão de um comando à entrada padrão do próximo, sem passar por um arquivo intermediário no meio do caminho.
 
 ```
 ps aux | grep firefox

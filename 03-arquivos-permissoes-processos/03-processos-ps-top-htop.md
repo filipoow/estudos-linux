@@ -2,7 +2,7 @@
 
 ## O que é um processo
 
-Todo programa em execução no Linux, do maior servidor web ao menor script, vira aquilo que o sistema chama de processo assim que começa a rodar. Cada processo recebe um número de identificação único, o PID (Process ID), e o kernel usa esse número para controlar tudo relacionado àquele programa: quanto tempo de processador ele recebe, quanta memória ele pode usar, e quando ele deve ser encerrado. O primeiro processo que o sistema cria ao ligar, sempre com PID 1, é o próprio init (hoje, na maioria das distribuições, o systemd), como já foi explicado no arquivo sobre o [processo de inicialização](07-processo-inicializacao.md). Todos os outros processos do sistema descendem dele, formando uma árvore de processos pai e processos filho.
+Todo programa em execução no Linux, do maior servidor web ao menor script, vira aquilo que o sistema chama de processo assim que começa a rodar. Cada processo recebe um número de identificação único, o PID (Process ID), e o kernel usa esse número para controlar tudo relacionado àquele programa: quanto tempo de processador ele recebe, quanta memória ele pode usar, e quando ele deve ser encerrado. O primeiro processo que o sistema cria ao ligar, sempre com PID 1, é o próprio init (hoje, na maioria das distribuições, o systemd), como já foi explicado no arquivo sobre o [processo de inicialização](../01-fundamentos/07-processo-inicializacao.md). Todos os outros processos do sistema descendem dele, formando uma árvore de processos pai e processos filho.
 
 ## `ps`: uma fotografia do momento
 
@@ -14,7 +14,7 @@ ps aux
 
 Essa combinação clássica de opções mostra todos os processos do sistema (`a`), incluindo os que não estão ligados a um terminal (`x`), com informações detalhadas sobre o usuário dono de cada processo (`u`), como consumo de memória e de processador.
 
-Por ser uma fotografia e não algo que fica atualizando sozinho, o `ps` é a ferramenta certa quando o objetivo é usar o resultado dentro de um script, ou filtrar a saída com o `grep`, já apresentado no arquivo sobre [visualização e filtragem de conteúdo](10-visualizacao-filtragem-conteudo.md):
+Por ser uma fotografia e não algo que fica atualizando sozinho, o `ps` é a ferramenta certa quando o objetivo é usar o resultado dentro de um script, ou filtrar a saída com o `grep`, já apresentado no arquivo sobre [visualização e filtragem de conteúdo](../02-terminal-na-pratica/02-visualizacao-filtragem-conteudo.md):
 
 ```
 ps aux | grep firefox
@@ -32,7 +32,7 @@ O `top` é útil justamente quando o problema não está claro ainda, e é preci
 
 ## `htop`: a versão mais amigável
 
-O `htop`, já apresentado com mais detalhes no arquivo sobre [monitoramento do sistema](13-monitoramento-sistema.md), cumpre basicamente o mesmo papel do `top`, mas com uma interface bem mais fácil de ler, com cores, barras de uso por núcleo do processador, e navegação pelo teclado para explorar e até encerrar processos diretamente da tela, sem precisar decorar comandos extras.
+O `htop`, já apresentado com mais detalhes no arquivo sobre [monitoramento do sistema](../02-terminal-na-pratica/05-monitoramento-sistema.md), cumpre basicamente o mesmo papel do `top`, mas com uma interface bem mais fácil de ler, com cores, barras de uso por núcleo do processador, e navegação pelo teclado para explorar e até encerrar processos diretamente da tela, sem precisar decorar comandos extras.
 
 ## Comparando os três
 

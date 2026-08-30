@@ -38,11 +38,11 @@ mkdir -p /tmp/cache_antigo
 echo "Limpeza concluida"
 ```
 
-Cada linha é um comando comum, dos mesmos apresentados no arquivo sobre [manipulação de arquivos e diretórios](09-manipulacao-arquivos-diretorios.md), só que agora reunidos num único arquivo, executados em sequência automaticamente.
+Cada linha é um comando comum, dos mesmos apresentados no arquivo sobre [manipulação de arquivos e diretórios](../02-terminal-na-pratica/01-manipulacao-arquivos-diretorios.md), só que agora reunidos num único arquivo, executados em sequência automaticamente.
 
 ## Dando permissão de execução
 
-Criar o arquivo de texto com os comandos não é suficiente, o sistema também precisa saber que aquele arquivo pode ser executado como programa, e não só lido como um texto qualquer. Isso é feito com o `chmod`, já apresentado no arquivo sobre [permissões](16-permissoes-chmod-chown.md):
+Criar o arquivo de texto com os comandos não é suficiente, o sistema também precisa saber que aquele arquivo pode ser executado como programa, e não só lido como um texto qualquer. Isso é feito com o `chmod`, já apresentado no arquivo sobre [permissões](../03-arquivos-permissoes-processos/02-permissoes-chmod-chown.md):
 
 ```
 chmod +x limpeza.sh
@@ -58,7 +58,7 @@ O `./` é necessário porque, por padrão, o shell não procura programas para e
 
 ## Por que automatizar assim vale a pena
 
-Um script transforma uma sequência de comandos que exigiria digitação manual, repetida e sujeita a erro humano, em algo confiável e repetível com um único comando. Isso se torna ainda mais poderoso quando combinado com agendamento automático, tema do próximo arquivo, sobre [CronTab](25-crontab-agendamento.md), permitindo que tarefas rotineiras de manutenção rodem sozinhas, sem depender de ninguém lembrar de executá-las manualmente.
+Um script transforma uma sequência de comandos que exigiria digitação manual, repetida e sujeita a erro humano, em algo confiável e repetível com um único comando. Isso se torna ainda mais poderoso quando combinado com agendamento automático, tema do próximo arquivo, sobre [CronTab](04-crontab-agendamento.md), permitindo que tarefas rotineiras de manutenção rodem sozinhas, sem depender de ninguém lembrar de executá-las manualmente.
 
 ## Fontes
 

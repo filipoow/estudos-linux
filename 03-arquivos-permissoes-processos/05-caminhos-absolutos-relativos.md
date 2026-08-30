@@ -2,7 +2,7 @@
 
 ## Dois jeitos de dizer onde um arquivo está
 
-O comando `cd`, já apresentado no arquivo sobre [manipulação de arquivos e diretórios](09-manipulacao-arquivos-diretorios.md), aceita caminhos escritos de duas formas bem diferentes, e entender essa diferença é essencial para não se perder (ou pior, apagar algo no lugar errado) usando o terminal.
+O comando `cd`, já apresentado no arquivo sobre [manipulação de arquivos e diretórios](../02-terminal-na-pratica/01-manipulacao-arquivos-diretorios.md), aceita caminhos escritos de duas formas bem diferentes, e entender essa diferença é essencial para não se perder (ou pior, apagar algo no lugar errado) usando o terminal.
 
 ## Caminho absoluto: o endereço completo
 
@@ -36,7 +36,7 @@ Por exemplo, estando em `/home/filipe/documentos`, o comando `cd ../downloads` l
 
 Não existe uma regra fixa, mas existe uma lógica prática por trás da escolha. Caminhos absolutos são mais seguros dentro de scripts e automações, já que funcionam sempre do mesmo jeito, não importa de onde o script foi chamado, o que evita erros silenciosos. Caminhos relativos, por outro lado, são mais rápidos de digitar no uso interativo do dia a dia, especialmente quando se está navegando entre pastas próximas umas das outras, sem precisar escrever o endereço inteiro toda vez.
 
-Vale lembrar também do `pwd`, apresentado no arquivo sobre [ajuda e documentação](12-ajuda-documentacao-terminal.md): rodar `pwd` antes de usar um caminho relativo é um hábito simples que evita boa parte da confusão, já que ele revela exatamente qual é o ponto de partida que o caminho relativo vai considerar.
+Vale lembrar também do `pwd`, apresentado no arquivo sobre [ajuda e documentação](../02-terminal-na-pratica/04-ajuda-documentacao-terminal.md): rodar `pwd` antes de usar um caminho relativo é um hábito simples que evita boa parte da confusão, já que ele revela exatamente qual é o ponto de partida que o caminho relativo vai considerar.
 
 ## Fontes
 

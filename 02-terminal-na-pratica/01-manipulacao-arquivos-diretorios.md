@@ -2,7 +2,7 @@
 
 ## Por que fazer isso pelo terminal, e não pelo gerenciador de arquivos
 
-Já expliquei no arquivo sobre [linha de comando](04-linha-de-comando.md) por que o terminal é tão central no Linux. Aqui o foco é diferente: entrar de fato na prática de criar, mover, apagar e organizar arquivos e pastas usando só comandos, sem clicar em nada. É basicamente a habilidade mais usada no dia a dia de quem administra um sistema Linux, seja um servidor sem interface gráfica nenhuma, seja um notebook pessoal.
+Já expliquei no arquivo sobre [linha de comando](../01-fundamentos/04-linha-de-comando.md) por que o terminal é tão central no Linux. Aqui o foco é diferente: entrar de fato na prática de criar, mover, apagar e organizar arquivos e pastas usando só comandos, sem clicar em nada. É basicamente a habilidade mais usada no dia a dia de quem administra um sistema Linux, seja um servidor sem interface gráfica nenhuma, seja um notebook pessoal.
 
 Todo comando que aparece aqui segue o mesmo padrão de uso: o nome do comando, seguido de opções (que geralmente começam com um traço, como `-l`), seguido do que o comando deve afetar, como um nome de arquivo ou pasta.
 

@@ -27,7 +27,7 @@ Uma alternativa mais rápida e resumida ao `man`, presente na maioria dos comand
 
 ## `pwd`: saber onde você está
 
-Já apresentado no arquivo sobre [linha de comando](04-linha-de-comando.md), o `pwd` ("print working directory") merece ser reforçado aqui justamente por ser, junto com o `man`, uma das ferramentas de orientação mais básicas do terminal. Enquanto o `man` ajuda a entender o que um comando faz, o `pwd` ajuda a entender onde, dentro da árvore de pastas do sistema, aquele comando está prestes a ser executado.
+Já apresentado no arquivo sobre [linha de comando](../01-fundamentos/04-linha-de-comando.md), o `pwd` ("print working directory") merece ser reforçado aqui justamente por ser, junto com o `man`, uma das ferramentas de orientação mais básicas do terminal. Enquanto o `man` ajuda a entender o que um comando faz, o `pwd` ajuda a entender onde, dentro da árvore de pastas do sistema, aquele comando está prestes a ser executado.
 
 ```
 pwd

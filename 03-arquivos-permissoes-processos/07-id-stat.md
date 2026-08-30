@@ -14,7 +14,7 @@ Um resultado típico se parece com isto:
 uid=1000(filipe) gid=1000(filipe) grupos=1000(filipe),27(sudo),1001(docker)
 ```
 
-Esses números por trás dos nomes não são só um detalhe técnico, eles são, na prática, a verdadeira identidade da conta para o kernel. Nomes de usuário existem para facilitar a vida de quem está lendo a tela, mas internamente o sistema usa esses números para decidir, em cada arquivo, se aquela conta tem permissão de acesso, comparando o UID e os GIDs do processo com o dono e o grupo registrados no arquivo, exatamente o sistema de permissões apresentado no arquivo sobre [chmod e chown](16-permissoes-chmod-chown.md). Vale notar que a conta root sempre tem UID igual a 0, não importa a distribuição.
+Esses números por trás dos nomes não são só um detalhe técnico, eles são, na prática, a verdadeira identidade da conta para o kernel. Nomes de usuário existem para facilitar a vida de quem está lendo a tela, mas internamente o sistema usa esses números para decidir, em cada arquivo, se aquela conta tem permissão de acesso, comparando o UID e os GIDs do processo com o dono e o grupo registrados no arquivo, exatamente o sistema de permissões apresentado no arquivo sobre [chmod e chown](02-permissoes-chmod-chown.md). Vale notar que a conta root sempre tem UID igual a 0, não importa a distribuição.
 
 O `id` também aceita indicar outro usuário como argumento, mostrando as credenciais dele em vez das do usuário atual:
 
@@ -32,7 +32,7 @@ stat arquivo.txt
 
 A saída típica traz, entre outras informações:
 
-- **Inode**: o número do inode que representa esse arquivo no sistema de arquivos, o mesmo conceito apresentado no arquivo sobre [hardlinks e softlinks](20-links-hardlink-softlink.md).
+- **Inode**: o número do inode que representa esse arquivo no sistema de arquivos, o mesmo conceito apresentado no arquivo sobre [hardlinks e softlinks](06-links-hardlink-softlink.md).
 - **Links**: quantos nomes diferentes (hardlinks) apontam para esse mesmo inode.
 - **Size**: o tamanho do arquivo, geralmente em bytes.
 - **Access, Modify e Change**: três datas diferentes e fáceis de confundir entre si. Access é a última vez que o conteúdo foi lido. Modify é a última vez que o conteúdo foi alterado. Change é a última vez que os metadados do arquivo mudaram, como permissões ou dono, mesmo que o conteúdo em si não tenha sido tocado.

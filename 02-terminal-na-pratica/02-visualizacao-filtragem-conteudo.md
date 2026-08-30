@@ -52,7 +52,7 @@ Esse comando mostraria só as linhas do arquivo que contêm a palavra "erro". O 
 
 ## Combinando tudo com pipes
 
-A força real desses comandos aparece quando são encadeados uns nos outros através do pipe (`|`), que já foi apresentado no arquivo sobre [linha de comando](04-linha-de-comando.md). Por exemplo, para ver só as últimas vinte linhas de um log que contenham a palavra "falha":
+A força real desses comandos aparece quando são encadeados uns nos outros através do pipe (`|`), que já foi apresentado no arquivo sobre [linha de comando](../01-fundamentos/04-linha-de-comando.md). Por exemplo, para ver só as últimas vinte linhas de um log que contenham a palavra "falha":
 
 ```
 tail -n 100 arquivo.log | grep "falha"
