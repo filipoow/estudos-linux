@@ -64,6 +64,17 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O 
 7. [Ambiente de desenvolvimento no macOS e Windows](06-fundamentos-so-unix-shell/07-ambiente-dev-macos-windows.md)
 8. [Docker e Homebrew](06-fundamentos-so-unix-shell/08-docker-homebrew.md)
 
+### [07. Processamento de texto e automação](07-processamento-texto-e-automacao)
+
+1. [Expressões regulares](07-processamento-texto-e-automacao/01-expressoes-regulares.md)
+2. [cut, awk e tr](07-processamento-texto-e-automacao/02-cut-awk-tr-manipulacao-dados.md)
+3. [Pipelines: sed, awk, printf e tee](07-processamento-texto-e-automacao/03-pipelines-sed-awk-printf-tee.md)
+4. [grep avançado e find](07-processamento-texto-e-automacao/04-grep-avancado-find.md)
+5. [Heredoc e comandos de arquivos](07-processamento-texto-e-automacao/05-heredoc-e-comandos-arquivos.md)
+6. [Processos: pgrep, pkill, xargs e exit codes](07-processamento-texto-e-automacao/06-processos-pgrep-pkill-xargs-exit-codes.md)
+7. [Nginx como proxy reverso](07-processamento-texto-e-automacao/07-nginx-proxy-reverso.md)
+8. [Docker e Golang: processando logs](07-processamento-texto-e-automacao/08-docker-golang-processamento-logs.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
