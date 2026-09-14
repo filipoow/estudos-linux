@@ -75,6 +75,17 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O 
 7. [Nginx como proxy reverso](07-processamento-texto-e-automacao/07-nginx-proxy-reverso.md)
 8. [Docker e Golang: processando logs](07-processamento-texto-e-automacao/08-docker-golang-processamento-logs.md)
 
+### [08. Variáveis, condicionais e scripts avançados](08-variaveis-condicionais-scripts-avancados)
+
+1. [Variáveis de ambiente e locais](08-variaveis-condicionais-scripts-avancados/01-variaveis-ambiente-locais.md)
+2. [Aspas e expansão de variáveis](08-variaveis-condicionais-scripts-avancados/02-aspas-expansao-variaveis.md)
+3. [Condicionais: if, elif, else e ternário](08-variaveis-condicionais-scripts-avancados/03-condicionais-if-elif-else-ternario.md)
+4. [Boas práticas: shebang e shellcheck](08-variaveis-condicionais-scripts-avancados/04-boas-praticas-shebang-shellcheck.md)
+5. [Parâmetros e argumentos: posicionais e getopts](08-variaveis-condicionais-scripts-avancados/05-parametros-argumentos-getopts.md)
+6. [Operadores lógicos e de teste](08-variaveis-condicionais-scripts-avancados/06-operadores-logicos-teste.md)
+7. [Loops e case](08-variaveis-condicionais-scripts-avancados/07-loops-e-case.md)
+8. [Debug com set -x e permissões](08-variaveis-condicionais-scripts-avancados/08-debug-set-x-permissoes.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
