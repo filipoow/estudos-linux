@@ -86,6 +86,15 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O 
 7. [Loops e case](08-variaveis-condicionais-scripts-avancados/07-loops-e-case.md)
 8. [Debug com set -x e permissões](08-variaveis-condicionais-scripts-avancados/08-debug-set-x-permissoes.md)
 
+### [09. Funções, arrays e tratamento de erros](09-funcoes-arrays-e-tratamento-de-erros)
+
+1. [Funções e modularização](09-funcoes-arrays-e-tratamento-de-erros/01-funcoes-modularizacao.md)
+2. [Escopo local em funções](09-funcoes-arrays-e-tratamento-de-erros/02-escopo-local-em-funcoes.md)
+3. [Arrays indexados e associativos](09-funcoes-arrays-e-tratamento-de-erros/03-arrays-indexados-associativos.md)
+4. [For com listas, números e globbing](09-funcoes-arrays-e-tratamento-de-erros/04-for-listas-numeros-globbing.md)
+5. [find, exec e xargs em arquivos](09-funcoes-arrays-e-tratamento-de-erros/05-find-exec-xargs-manipulacao-arquivos.md)
+6. [trap e tratamento de erros](09-funcoes-arrays-e-tratamento-de-erros/06-trap-tratamento-erros.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
