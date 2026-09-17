@@ -95,6 +95,17 @@ Cada arquivo cobre um tema e traz fontes ao final, para quem quiser ir além. O 
 5. [find, exec e xargs em arquivos](09-funcoes-arrays-e-tratamento-de-erros/05-find-exec-xargs-manipulacao-arquivos.md)
 6. [trap e tratamento de erros](09-funcoes-arrays-e-tratamento-de-erros/06-trap-tratamento-erros.md)
 
+### [10. DevOps, monitoramento e processos longos](10-devops-monitoramento-e-processos-longos)
+
+1. [Bash Scripting para DevOps](10-devops-monitoramento-e-processos-longos/01-bash-scripting-para-devops.md)
+2. [Logs informacionais e de erro](10-devops-monitoramento-e-processos-longos/02-logs-informacionais-e-erro.md)
+3. [Prometheus, Grafana e Alertmanager](10-devops-monitoramento-e-processos-longos/03-prometheus-grafana-alertmanager.md)
+4. [Node Exporter e scraping no Prometheus](10-devops-monitoramento-e-processos-longos/04-node-exporter-scraping-prometheus.md)
+5. [netstat e monitoramento de rede](10-devops-monitoramento-e-processos-longos/05-netstat-monitoramento-rede.md)
+6. [nohup, screen e tmux](10-devops-monitoramento-e-processos-longos/06-nohup-screen-tmux.md)
+7. [systemd para serviços personalizados](10-devops-monitoramento-e-processos-longos/07-systemd-servicos-personalizados.md)
+8. [Job control no Bash](10-devops-monitoramento-e-processos-longos/08-job-control-bash.md)
+
 ## Sobre
 
 Material de estudo pessoal, escrito enquanto eu aprendia. Pode ter imprecisões pontuais, correções são bem-vindas.
